@@ -70,7 +70,7 @@
                       </div>
                     </div>
                     <div class="service">
-                      <img class="svg" src="{$WEB_ROOT}/templates/{$template}/assets/fonts/svg/reseller.svg" alt="Cloud Reseller">
+                      <img class="svg" src="{$WEB_ROOT}/templates/{$template}/assets/fonts/svg/reseller.svg" alt="KVM VPS">
                       <div class="media-body">
                         <a class="menu-item mergecolor" href="/vps.php">KVM VPS</a>
                         <p class="seccolor">Best For Self Managed and Developer </p>
@@ -136,7 +136,7 @@
                         <div class="inner">
                           <h4 class="title my-3">Get DID Numbers <br>US · UK · Canada</h4>
                           <div class="inner-content mb-3">Connect with customers worldwide using local numbers.</div>
-                          <a href="/cloudy/template/virtual-numbers" class="btn btn-default-pink-fill mt-4">Start From $19.99 /m</a>
+                          <a href="/comingsoon.php" class="btn btn-default-pink-fill mt-4">Start From $19.99 /m</a>
 
                         </div>
                       </div>
@@ -251,11 +251,6 @@
                             <div class="media-left">
                               <img class="svg" src="{$WEB_ROOT}/templates/{$template}/assets/fonts/svg/emailopen.svg" alt="Contact Us">
                             </div>
-                            <div class="media-body">
-                              <a class="menu-item mergecolor" href="{$WEB_ROOT}/contact.php">Contact Us</a>
-                              <div class="badge inside bg-pink ms-1">NOW</div>
-                              <p class="seccolor">We're ready and waiting for your questions</p>
-                            </div>
                           </div>
 
                           <div class="col-md-4 service">
@@ -344,9 +339,8 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-xs-6 col-md-6">
-        <a href="/cloudy/template/" class=" d-flex">
+        <a href="{$WEB_ROOT}/" class=" d-flex">
           <img class="svg logo-menu d-block" src="{$WEB_ROOT}/templates/{$template}/assets/img/logo.svg" alt="{$companyname}">
-          <img class="svg logo-menu d-none" src="{$WEB_ROOT}/templates/{$template}/assets/img/logo-light.svg" alt="{$companyname}">
         </a>
       </div>
       <div class="col-xs-6 col-md-6">
@@ -363,51 +357,28 @@
             <div class="menu-item dropdown">
               <a href="#" class="mergecolor dropdown-toggle" data-toggle="dropdown" data-toggle="dropdown">Home <div class="badge bg-purple">New</div></a>
               <div class="dropdown-menu">
-                <a class="dropdown-item menu-item" href="/cloudy/template/">Home Default</a>
-                <a class="dropdown-item menu-item" href="/cloudy/template/homeimage">Home Image</a>
-                <a class="dropdown-item menu-item" href="/cloudy/template/homevideo">Home Video</a>
-                <a class="dropdown-item menu-item" href="/cloudy/template/homegaming">Home Gaming</a>
-                <a class="dropdown-item menu-item" href="/cloudy/template/home3d">Home3D</a>
-                <a class="dropdown-item menu-item" href="?language=arabic">WHMCS (RTL)</a>
+                <a class="dropdown-item menu-item" href="{$WEB_ROOT}/">Home</a>
               </div>
             </div>
             <div class="menu-item dropdown">
               <a href="#" class="mergecolor dropdown-toggle" data-toggle="dropdown"  data-toggle="dropdown">Hosting <div class="badge bg-purple">PRO</div></a>
               <div class="dropdown-menu">
-                <a class="dropdown-item menu-item" href="/hosting.php">Shared Hosting</a>
-                <a class="dropdown-item menu-item" href="/vps.php">Cloud Reseller</a>
-                <a class="dropdown-item menu-item" href="/cloudy/template/dedicated">Dedicated Server</a>
-                <a class="dropdown-item menu-item" href="/cloudy/template/vps">Cloud VPS</a>
-                <a class="dropdown-item menu-item" href="/cloudy/template/wordpress">WordPress Hosting</a>
-                <a class="dropdown-item menu-item" href="/domain.php">Domain Names</a>
-                <a class="dropdown-item menu-item" href="/cloudy/template/developer">Developer Hosting</a>
+                <a class="dropdown-item menu-item" href="{$WEB_ROOT}/hosting">Shared Hosting</a>
+                <a class="dropdown-item menu-item" href="{$WEB_ROOT}/vps">VPS Server</a>
+                <a class="dropdown-item menu-item" href="{$WEB_ROOT}/domain">Domain Names</a>
               </div>
             </div>
             <div class="menu-item dropdown">
-              <a href="#" class="mergecolor dropdown-toggle" data-toggle="dropdown">Pages</a>
+              <a href="#" class="mergecolor dropdown-toggle" data-toggle="dropdown">Others</a>
               <div class="dropdown-menu">
-                <a class="dropdown-item menu-item" href="/cloudy/template/emailsecurity">Email Security</a>
-                <a class="dropdown-item menu-item" href="/cloudy/template/ssl">SSL Certificates</a>
-                <a class="dropdown-item menu-item" href="/cloudy/template/email">Enterprise Email</a>
-                <a class="dropdown-item menu-item" href="/cloudy/template/magento">Magento Pro</a>
-                <a class="dropdown-item menu-item" href="/comingsoon.php">G Suite - Google</a>
-                <a class="dropdown-item menu-item" href="/cloudy/template/iptv">IPTV System</a>
-                <a class="dropdown-item menu-item" href="/comingsoon.php">Gaming Server</a>
-                <a class="dropdown-item menu-item" href="/cloudy/template/radiostream">Radio Stream <div class="badge inside bg-pink ms-2">NEW</div></a>
-                <a class="dropdown-item menu-item" href="/cloudy/template/ddos">DDoS Protection</a>
-                <a class="dropdown-item menu-item" href="/cloudy/template/datacenter">Datacenter <div class="badge inside bg-grey ms-2">TOP</div></a>
-                <a class="dropdown-item menu-item" href="/cloudy/template/about">About Us</a>
-                <a class="dropdown-item menu-item" href="/cloudy/template/database">Database-as-a-Service</a>
-                <a class="dropdown-item menu-item" href="/cloudy/template/elements">Elements</a>
-                <a class="dropdown-item menu-item" href="/comingsoon.php">Virtual Numbers</a>
-                <a class="dropdown-item menu-item" href="/comingsoon.php">Voice Server <div class="badge inside bg-pink ms-2">NEW</div></a>
-                <a class="dropdown-item menu-item" href="/comingsoon.php">Payment Methods <div class="badge inside bg-pink ms-2">NEW</div></a>
-                <a class="dropdown-item menu-item" href="/cloudy/template/configuration">Configuration <div class="badge inside bg-grey ms-2">HOT</div></a>
-                <a class="dropdown-item menu-item" href="/cloudy/template/cart">Cart</a>
-                <a class="dropdown-item menu-item" href="/cloudy/template/checkout">Checkout</a>
-                <a class="dropdown-item menu-item" href="/comingsoon.php">Comming Soon</a>
-                <a class="dropdown-item menu-item" href="/cloudy/template/promos">Promotions</a>
-                <a class="dropdown-item menu-item" href="/cloudy/template/blackfriday">Blackfriday <div class="badge inside bg-pink ms-2">HOT</div></a>
+            <!--    <a class="dropdown-item menu-item" href="{$WEB_ROOT}/comingsoon.php">G Suite - Google</a>
+                <a class="dropdown-item menu-item" href="{$WEB_ROOT}/comingsoon.php">Voice Server <div class="badge inside bg-pink ms-2">NEW</div></a>
+                <a class="dropdown-item menu-item" href="{$WEB_ROOT}/comingsoon.php">Payment Methods <div class="badge inside bg-pink ms-2">NEW</div></a> -->
+                <a class="dropdown-item menu-item" href="{$WEB_ROOT}/cart">Cart</a>
+                <a class="dropdown-item menu-item" href="{$WEB_ROOT}/checkout">Checkout</a>
+           <!--    <a class="dropdown-item menu-item" href="{$WEB_ROOT}/comingsoon.php">Comming Soon</a>
+                <a class="dropdown-item menu-item" href="{$WEB_ROOT}/promos">Promotions</a>
+                <a class="dropdown-item menu-item" href="{$WEB_ROOT}/blackfriday">Blackfriday <div class="badge inside bg-pink ms-2">HOT</div></a> --> 
               </div>
             </div>
             {if $loggedin}
@@ -439,14 +410,16 @@
                 <a class="dropdown-item menu-item" href="{$WEB_ROOT}/announcements">Announcements</a>
                 <a class="dropdown-item menu-item" href="{$WEB_ROOT}/contact.php">Contact Us</a>
                 <a class="dropdown-item menu-item" href="/cloudy/template/legal">Privacy policy</a>
-                <a class="dropdown-item menu-item" href="/cloudy/template/blog-details">Blog Details</a>
+                <a class="dropdown-item menu-item" href="{$WEB_ROOT}/blog-details">Blog Details</a>
+
+                <a class="dropdown-item menu-item" href="{$WEB_ROOT}/about">About Us</a>
                 {if $loggedin}
                 <a class="dropdown-item menu-item" href="{$WEB_ROOT}/submitticket.php">{$LANG.navopenticket}</a>
                 {/if}
               </div>
             </div>
             <div class="float-left w-100 mt-3 f-18">
-              <p class="c-grey-light seccolor"><small>Email: admin@antler.com</small> </p>
+              <p class="c-grey-light seccolor"><small>Email: cloud@cloudman.one</small> </p>
             </div>
             <div>
               <a href="login"><div class="btn btn-default-yellow-fill mt-3">CLIENT AREA</div></a>
@@ -458,203 +431,3 @@
   </div>
 </div>
 
-<!-- ***** OFFCANVAS Sidebar ****** -->
-<div class="offcanvas offcanvas-start offcanvas-box bg-colorstyle" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title mergecolor f-22" id="offcanvasWithBackdropLabel">Special Deals</h5>
-    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body">
-    <div class="row mb-4">
-      <h6 class="mergecolor mb-4 f-16 ml-20">Free Trials</h6>
-      <div class="col-md-6">
-        <a href="/hosting.php">
-          <div class="card mb-4 br-12 upping cursor-p p-relative noshadow border-0 bg-white bg-seccolorstyle">
-            <div class="plans badge feat bg-purple">free migration</div>
-            <img src="{$WEB_ROOT}/templates/{$template}/assets/img/topbanner05.jpg" class="w-100" alt="Shared Hosting">
-            <div class="card-body">
-              <h6 class="card-title c-black mergecolor f-16">Shared Hosting</h6>
-              <p class="card-text c-black seccolor f-16 mb-0"><small>Blazing fast & stable hosting infrastructure</small></p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-6">
-        <a href="/cloudy/template/emailsecurity">
-          <div class="card mb-4 br-12 upping cursor-p p-relative noshadow border-0 bg-white bg-seccolorstyle">
-            <div class="plans badge feat bg-purple">free test</div>
-            <img src="{$WEB_ROOT}/templates/{$template}/assets/img/topbanner03.jpg" class="w-100" alt="Email Security">
-            <div class="card-body">
-              <h6 class="card-title c-black mergecolor f-16">Email Security</h6>
-              <p class="card-text c-black seccolor f-16 mb-0"><small>Powerful protection for emails with intelligent cluster</small></p>
-            </div>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="row mb-4">
-      <h6 class="mergecolor mb-4 f-16 ml-20">Special Promotions</h6>
-      <div class="col-md-6">
-        <a href="/hosting.php">
-          <div class="card mb-4 br-12 upping cursor-p p-relative noshadow border-0 bg-white bg-seccolorstyle">
-            <div class="plans badge feat bg-grey">30%</div>
-            <div class="row g-0 d-flex">
-              <div class="col-md-4">
-                <img class="svg img-fluid rounded-start" src="{$WEB_ROOT}/templates/{$template}/assets/fonts/svg/cloudfiber.svg" alt="Shared Hosting">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body pl-0">
-                  <h6 class="card-title c-black mergecolor f-16">Hosting</h6>
-                  <p class="card-text c-black seccolor f-16 mb-0"><small>Storage SSD, CloudLinux, cPanel..</small></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-6">
-        <a href="/cloudy/domain.php">
-          <div class="card mb-4 br-12 upping cursor-p p-relative noshadow border-0 bg-white bg-seccolorstyle">
-            <div class="plans badge feat bg-grey">$5.80</div>
-            <div class="row g-0 d-flex">
-              <div class="col-md-4">
-                <img class="svg img-fluid rounded-start" src="{$WEB_ROOT}/templates/{$template}/assets/fonts/svg/domains.svg" alt="Email Security">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body pl-0">
-                  <h6 class="card-title c-black mergecolor f-16">Domains</h6>
-                  <p class="card-text c-black seccolor f-16 mb-0"><small>More than 900 domains extensions..</small></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-6">
-        <a href="/comingsoon.php">
-          <div class="card mb-4 br-12 upping cursor-p p-relative noshadow border-0 bg-white bg-seccolorstyle">
-            <div class="plans badge feat bg-purple">20%</div>
-            <div class="row g-0 d-flex">
-              <div class="col-md-4">
-                <img class="svg img-fluid rounded-start" src="{$WEB_ROOT}/templates/{$template}/assets/fonts/svg/docbox.svg" alt="G Suite Google">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body pl-0">
-                  <h6 class="card-title c-black mergecolor f-16">G Suite</h6>
-                  <p class="card-text c-black seccolor f-16 mb-0"><small>Email, Chat, Apps, Cloud Storage..</small></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-6">
-        <a href="/cloudy/template/ssl">
-          <div class="card mb-4 br-12 upping cursor-p p-relative noshadow border-0 bg-white bg-seccolorstyle">
-            <div class="plans badge feat bg-purple">20%</div>
-            <div class="row g-0 d-flex">
-              <div class="col-md-4">
-                <img class="svg img-fluid rounded-start" src="{$WEB_ROOT}/templates/{$template}/assets/fonts/svg/privacy.svg" alt="Wilcard SSL">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body pl-0">
-                  <h6 class="card-title c-black mergecolor f-16">Wilcard</h6>
-                  <p class="card-text c-black seccolor f-16 mb-0"><small>Security, credibility and trust visitors..</small></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-    <div class="row mb-4">
-      <h6 class="mergecolor f-16 ml-20">Flexible Operating Systems</h6>
-      <p class="seccolor ml-20"><small>Install over +300 scripts and apps instantly with our auto installer.</small></p>
-      <div class="os br-12 upping cursor-p noshadow bg-seccolorstyle">
-        <a href="#">
-          <img class="svg" src="{$WEB_ROOT}/templates/{$template}/assets/apps/centos.svg" alt="Centos">
-          <p class="mb-0 seccolor">Centos</p>
-        </a>
-      </div>
-      <div class="os br-12 upping cursor-p noshadow bg-seccolorstyle">
-        <a href="#">
-          <img class="svg" src="{$WEB_ROOT}/templates/{$template}/assets/apps/debian.svg" alt="Centos">
-          <p class="mb-0 seccolor">Debian</p>
-        </a>
-      </div>
-      <div class="os br-12 upping cursor-p noshadow bg-seccolorstyle">
-        <a href="#">
-          <img class="svg" src="{$WEB_ROOT}/templates/{$template}/assets/apps/docker.svg" alt="Centos">
-          <p class="mb-0 seccolor">Docker</p>
-        </a>
-      </div>
-      <div class="os br-12 upping cursor-p noshadow bg-seccolorstyle">
-        <a href="#">
-          <img class="svg" src="{$WEB_ROOT}/templates/{$template}/assets/apps/drupal.svg" alt="Centos">
-          <p class="mb-0 seccolor">Drupal</p>
-        </a>
-      </div>
-      <div class="os br-12 upping cursor-p noshadow bg-seccolorstyle">
-        <a href="#">
-          <img class="svg" src="{$WEB_ROOT}/templates/{$template}/assets/apps/cpanel.svg" alt="Centos">
-          <p class="mb-0 seccolor">cPanel</p>
-        </a>
-      </div>
-      <div class="os br-12 upping cursor-p noshadow bg-seccolorstyle">
-        <a href="#">
-          <img class="svg" src="{$WEB_ROOT}/templates/{$template}/assets/apps/fedora.svg" alt="Centos">
-          <p class="mb-0 seccolor">Fedora</p>
-        </a>
-      </div>
-      <div class="os br-12 upping cursor-p noshadow bg-seccolorstyle">
-        <a href="#">
-          <img class="svg" src="{$WEB_ROOT}/templates/{$template}/assets/apps/gitlab.svg" alt="Centos">
-          <p class="mb-0 seccolor">Gitlab</p>
-        </a>
-      </div>
-      <div class="os br-12 upping cursor-p noshadow bg-seccolorstyle">
-        <a href="#">
-          <img class="svg" src="{$WEB_ROOT}/templates/{$template}/assets/apps/joomla.svg" alt="Centos">
-          <p class="mb-0 seccolor">Joomla</p>
-        </a>
-      </div>
-      <div class="os br-12 upping cursor-p noshadow bg-seccolorstyle">
-        <a href="#">
-          <img class="svg" src="{$WEB_ROOT}/templates/{$template}/assets/apps/joomla.svg" alt="Centos">
-          <p class="mb-0 seccolor">Lamp</p>
-        </a>
-      </div>
-      <div class="os br-12 upping cursor-p noshadow bg-seccolorstyle">
-        <a href="#">
-          <img class="svg" src="{$WEB_ROOT}/templates/{$template}/assets/apps/magento.svg" alt="Centos">
-          <p class="mb-0 seccolor">Magento</p>
-        </a>
-      </div>
-      <div class="os br-12 upping cursor-p noshadow bg-seccolorstyle">
-        <a href="#">
-          <img class="svg" src="{$WEB_ROOT}/templates/{$template}/assets/apps/openvpn.svg" alt="Centos">
-          <p class="mb-0 seccolor">VPN</p>
-        </a>
-      </div>
-      <div class="os br-12 upping cursor-p noshadow bg-seccolorstyle">
-        <a href="#">
-          <img class="svg" src="{$WEB_ROOT}/templates/{$template}/assets/apps/owncloud.svg" alt="Centos">
-          <p class="mb-0 seccolor">OWN</p>
-        </a>
-      </div>
-      <div class="os br-12 upping cursor-p noshadow bg-seccolorstyle">
-        <a href="#">
-          <img class="svg" src="{$WEB_ROOT}/templates/{$template}/assets/apps/prestashop.svg" alt="Centos">
-          <p class="mb-0 seccolor">Presta</p>
-        </a>
-      </div>
-      <div class="os br-12 upping cursor-p noshadow bg-seccolorstyle">
-        <a href="#">
-          <img class="svg" src="{$WEB_ROOT}/templates/{$template}/assets/apps/windows.svg" alt="Centos">
-          <p class="mb-0 seccolor">Windows</p>
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="backdrop-start offcanvas-backdrop fade" data-bs-dismiss="offcanvas"></div>

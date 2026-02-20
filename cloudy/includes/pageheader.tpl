@@ -2,7 +2,7 @@
 	
 	<div class="row text-center">
 		<h2 class="section-heading mergecolor text-center w-100">{$title}{if $desc}</h2>
-		<p class="section-subheading mergecolor">{$desc}</p>{/if}
+{/if}
 	</div>
 
 	{if !$inShoppingCart && ($primarySidebar->hasChildren() || $secondarySidebar->hasChildren())}

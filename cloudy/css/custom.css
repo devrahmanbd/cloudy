@@ -6,3 +6,13 @@
     defined here.
 
 ***************************************************** */
+.bg-seccolorstyle.bg-white.noshadow.mt-50.p-50.br-12 {
+    margin-top: 0px !important;
+    background-color: red;
+}
+div#containerNewUserSecurity {
+    justify-items: center !important;
+}
+div#containerNewUserSignup {
+    justify-items: center;
+}

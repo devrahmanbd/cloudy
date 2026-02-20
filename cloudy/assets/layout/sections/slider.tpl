@@ -1140,7 +1140,12 @@
     max-height: 250px; 
   }
 }
-
+.provider-badge {
+    width: 25%;
+}
+.providers-list.aos-init.aos-animate {
+    margin-left: 5rem;
+}
 @media (prefers-reduced-motion: reduce) {
   .hero-item,
   .btn-group-hero .btn,

@@ -121,52 +121,69 @@
       <div class="cm-plans">
 
         <div class="cm-plan">
-          <div class="cm-plan-name">Launch NVMe</div>
+          <div class="cm-plan-name">Launch</div>
           <p class="cm-plan-for">For 1 website & personal projects.</p>
-          <div class="cm-price"><strong>$4.99</strong><span>/mo</span></div>
+          <div class="cm-price"><strong>$7.99</strong><span>/mo</span></div>
           <a class="cm-btn cm-btn-primary" href="{$WEB_ROOT}/cart.php?a=add&pid=101">Order Launch</a>
           <ul class="cm-spec">
-            <li><span>Storage</span><b>25GB NVMe</b></li>
+            <li><span>Storage</span><b>10GB NVMe</b></li>
             <li><span>Websites</span><b>1 site</b></li>
-            <li><span>Email</span><b>10 mailboxes</b></li>
-            <li><span>Bandwidth</span><b>Unmetered*</b></li>
-            <li><span>Backups</span><b>Daily</b></li>
+            <li><span>Bandwidth</span><b>100GB</b></li>
+            <li><span>Addon</span><b>+1 Domain</b></li>
+            <li><span>Emails</span><b>10</b></li>
+            <li><span>Firewall</span><b>Available</b></li>
+            <li><span>DDOS Protection</span><b>Basic</b></li>
+            <li><span>Malware Scanner</span><b>Available</b></li>
+            <li><span>Managed Backup</span><b>Weekly</b></li>            
           </ul>
         </div>
 
         <div class="cm-plan featured">
           <div class="cm-pill">Most popular</div>
-          <div class="cm-plan-name">Business NVMe</div>
-          <p class="cm-plan-for">For stores & growing teams.</p>
-          <div class="cm-price"><strong>$8.99</strong><span>/mo</span></div>
-          <a class="cm-btn cm-btn-primary" href="{$WEB_ROOT}/cart.php?a=add&pid=102">Order Business</a>
+          <div class="cm-plan-name">Scale</div>
+          <p class="cm-plan-for">For the promising growing teams.</p>
+          <div class="cm-price"><strong>$11.99</strong><span>/mo</span></div>
+          <a class="cm-btn cm-btn-primary" href="{$WEB_ROOT}/cart.php?a=add&pid=102">Order Scale</a>
           <ul class="cm-spec">
-            <li><span>Storage</span><b>75GB NVMe</b></li>
-            <li><span>Websites</span><b>10 sites</b></li>
-            <li><span>Email</span><b>Unlimited</b></li>
-            <li><span>Bandwidth</span><b>Unmetered*</b></li>
-            <li><span>Backups</span><b>Daily + 30 days</b></li>
+           <ul class="cm-spec">
+            <li><span>Storage</span><b>25GB NVMe</b></li>
+            <li><span>Websites</span><b>5 site</b></li>
+            <li><span>Bandwidth</span><b>300GB</b></li>
+            <li><span>Addon</span><b>+5 Domain</b></li>
+            <li><span>Emails</span><b>20</b></li>
+            <li><span>Firewall</span><b>Available</b></li>
+            <li><span>DDOS Protection</span><b>Pro</b></li>
+            <li><span>Malware Scanner</span><b>Available</b></li>
+            <li><span>Managed Backup</span><b>Daily</b></li>      
+          </ul>
           </ul>
         </div>
 
         <div class="cm-plan">
-          <div class="cm-plan-name">Scale NVMe</div>
-          <p class="cm-plan-for">For agencies & high‑traffic sites.</p>
-          <div class="cm-price"><strong>$14.99</strong><span>/mo</span></div>
-          <a class="cm-btn cm-btn-primary" href="{$WEB_ROOT}/cart.php?a=add&pid=103">Order Scale</a>
+          <div class="cm-plan-name">Prime</div>
+          <p class="cm-plan-for">For Businesses in their prime.</p>
+          <div class="cm-price"><strong>$18.99</strong><span>/mo</span></div>
+          <a class="cm-btn cm-btn-primary" href="{$WEB_ROOT}/cart.php?a=add&pid=103">Order Prime</a>
           <ul class="cm-spec">
-            <li><span>Storage</span><b>150GB NVMe</b></li>
-            <li><span>Websites</span><b>Unlimited**</b></li>
-            <li><span>Email</span><b>Unlimited</b></li>
-            <li><span>Resources</span><b>Higher CPU/RAM</b></li>
-            <li><span>Priority support</span><b>Available</b></li>
+            <li><span>Storage</span><b>50GB NVMe</b></li>
+            <li><span>Websites</span><b>10 site</b></li>
+            <li><span>Bandwidth</span><b>800GB</b></li>
+            <li><span>Addon</span><b>+20 Domain</b></li>
+            <li><span>Emails</span><b>50</b></li>
+            <li><span>Firewall</span><b>Available</b></li>
+            <li><span>DDOS Protection</span><b>Pro</b></li>
+            <li><span>Malware Scanner</span><b>Available</b></li>
+            <li><span>Managed Backup</span><b>Daily</b></li>
+            <li><span>Support</span><b>On Desk*</b></li>
           </ul>
         </div>
 
       </div>
 
       <p class="cm-note">
-        *Unmetered bandwidth is subject to fair use and infrastructure protection policies. **“Unlimited” is designed for normal website usage; abusive workloads may be limited.
+        *We provide professional hosting support with priority escalation for critical or complex technical issues, ensuring every customer receives the same high standard of care.
+        <br>
+          *Daily backups are securely generated at 00:00 (UTC+6, Asia/Dhaka), with weekly full backups performed every Friday at 00:00 (UTC+6, Asia/Dhaka) to ensure consistent data protection.
       </p>
     </div>
   </section>

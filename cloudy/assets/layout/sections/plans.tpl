@@ -81,8 +81,8 @@
         </article>
       </div>
 
-      <div class="col-12 col-lg-3 d-flex pricing-col-trial">
-        <article class="wrapper third text-left noshadow pricing-card pricing-trial"
+      <div class="col-12 col-lg-4 d-flex">
+        <article class="wrapper first text-left noshadow h-100 pricing-card pricing-standard aos-init aos-animate"
                  data-aos="zoom-in" data-aos-duration="900">
 
           <div class="top-content bg-seccolorstyle topradius pricing-top pricing-top-trial">
@@ -92,7 +92,7 @@
             <h3 class="title mb-2">Request Trial</h3>
             <p class="seccolor mb-3">Try Before You Commit</p>
 
-            <div class="mvp-pill mvp-pill-trial" aria-label="Key feature">No credit card</div>
+            <div class="mvp-pill mvp-pill-trial" aria-label="Key feature">No credit card required</div>
 
             <div class="trial-price-line seccolor">
               <span class="trial-free">FREE</span>
@@ -122,7 +122,7 @@
 
 <style>
 .pricing-focus-v2 .pricing-gap{
-  column-gap: 5rem;
+  column-gap: 2rem;
   row-gap: 2.5rem;
   --bs-gutter-x: 0;
   --bs-gutter-y: 0;
@@ -196,12 +196,11 @@
 }
 
 .pricing-focus-v2 .pricing-trial{
-  width: 100%;
   margin-top: 0;
 }
 
-.pricing-focus-v2 .pricing-col-trial{
-  align-self: flex-start;
+.col-12.col-lg-3.d-flex.pricing-col-trial {
+    margin-top: 5rem;
 }
 
 .pricing-focus-v2 .trial-badge{
@@ -309,5 +308,12 @@
   .pricing-focus-v2 .pricing-top{
     min-height: 0;
   }
+}
+a.btn.btn-default-yellow-fill.pricing-cta {
+    width: 230px;
+}
+.col-12.col-lg-4.d-flex {
+    justify-content: center;
+    margin-top: 5rem;
 }
 </style>

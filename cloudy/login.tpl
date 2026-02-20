@@ -15,8 +15,7 @@
                     {include file="$template/includes/flashmessage.tpl"}
                     
                     <div class="text-center">
-                        <h2 class="section-heading whitecolor mergecolor">{$LANG.clientareahomeloginbtn}</h2>
-                        <p class="section-subheading whitecolor mergecolor">{$LANG.restrictedpage}</p>
+                        <h2 class="section-heading whitecolor mergecolor">Login To Cloudman Panel</h2>
                     </div>
 
                     <div class="mt-50">
@@ -31,12 +30,12 @@
                         <div class="providerLinkingFeedback mx-3"></div>
                         <form method="post" action="{routePath('login-validate')}" class="login-form" role="form">
 
-                            <div class="col-md-6">
+                            <div class="col-md-6" style="width: 100%;">
                                 <div class="form-group">
                                     <input type="email" name="username" class="form-control" id="inputEmail" placeholder="{$LANG.pwresetemailrequired}" autofocus>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6" style="width: 100%;">
                                 <div class="form-group">
                                     <input type="password" name="password" class="form-control" id="inputPassword" placeholder="{$LANG.twofaconfirmpw}" autocomplete="off" >
                                 </div>

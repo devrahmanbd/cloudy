@@ -46,7 +46,7 @@ jQuery("#inputNewPassword1").keyup(registerFormPasswordStrengthFeedback);
                         <form method="post" class="using-password-strength" action="{$smarty.server.PHP_SELF}" role="form" name="orderfrm" id="frmCheckout">
                             
                             <input type="hidden" name="register" value="true"/>
-                            <div id="containerNewUserSignup">
+                            <div id="containerNewUserSignup" style="justify-items: center;">
                                 {include file="$template/includes/linkedaccounts.tpl" linkContext="registration"}
                                 
                                 <div class="divider mb-15">
@@ -56,22 +56,22 @@ jQuery("#inputNewPassword1").keyup(registerFormPasswordStrengthFeedback);
                                 </div>
 
                                 <div class="row">
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12" style="justify-items: center;">
                                         <div class="form-group">
                                             <input type="text" name="firstname" id="inputFirstName" class="field form-control" placeholder="{$LANG.orderForm.firstName}" value="{$clientfirstname}" {if !in_array('firstname', $optionalFields)}required{/if} autofocus>
                                         </div>
                                     </div>
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12" style="justify-items: center;">
                                         <div class="form-group">
                                             <input type="text" name="lastname" id="inputLastName" class="field form-control" placeholder="{$LANG.orderForm.lastName}" value="{$clientlastname}" {if !in_array('lastname', $optionalFields)}required{/if}>
                                         </div>
                                     </div>
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12" style="justify-items: center;">
                                         <div class="form-group">
                                             <input type="email" name="email" id="inputEmail" class="field form-control" placeholder="{$LANG.orderForm.emailAddress}" value="{$clientemail}">
                                         </div>
                                     </div>
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12" style="justify-items: center;">
                                         <div class="form-group">
                                             <input type="tel" name="phonenumber" id="inputPhone" class="field" placeholder="{$LANG.orderForm.phoneNumber}" value="{$clientphonenumber}">
                                         </div>
@@ -85,35 +85,30 @@ jQuery("#inputNewPassword1").keyup(registerFormPasswordStrengthFeedback);
                                 </div>
 
                                 <div class="row">
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12" style="justify-items: center;">
                                         <div class="form-group">
                                             <input type="text" name="companyname" id="inputCompanyName" class="field" placeholder="{$LANG.orderForm.companyName} ({$LANG.orderForm.optional})" value="{$clientcompanyname}">
                                         </div>
                                     </div>
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12" style="justify-items: center;">
                                         <div class="form-group">
                                             <input type="text" name="address1" id="inputAddress1" class="field form-control" placeholder="{$LANG.orderForm.streetAddress}" value="{$clientaddress1}"  {if !in_array('address1', $optionalFields)}required{/if}>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12">
-                                        <div class="form-group">
-                                            <input type="text" name="address2" id="inputAddress2" class="field" placeholder="{$LANG.orderForm.streetAddress2}" value="{$clientaddress2}">
                                         </div>
                                     </div>
                                 </div>
                                 
                                 <div class="row">
-                                    <div class="col-sm-4">
+                                    <div class="">
                                         <div class="form-group">
                                             <input type="text" name="city" id="inputCity" class="field form-control" placeholder="{$LANG.orderForm.city}" value="{$clientcity}"  {if !in_array('city', $optionalFields)}required{/if}>
                                         </div>
                                     </div>
-                                    <div class="col-sm-5">
+                                    <div class="">
                                         <div class="form-group">
                                             <input type="text" name="state" id="state" class="field form-control" placeholder="{$LANG.orderForm.state}" value="{$clientstate}"  {if !in_array('state', $optionalFields)}required{/if}>
                                         </div>
                                     </div>
-                                    <div class="col-sm-3">
+                                    <div class="">
                                         <div class="form-group">
                                             <input type="text" name="postcode" id="inputPostcode" class="field form-control" placeholder="{$LANG.orderForm.postcode}" value="{$clientpostcode}" {if !in_array('postcode', $optionalFields)}required{/if}>
                                         </div>
@@ -180,7 +175,7 @@ jQuery("#inputNewPassword1").keyup(registerFormPasswordStrengthFeedback);
                                 {/if}
                             </div>
                             {/if}
-                            <div id="containerNewUserSecurity" {if $remote_auth_prelinked && !$securityquestions } class="hidden"{/if}>
+                            <div id="containerNewUserSecurity" style="justify-items: center;" {if $remote_auth_prelinked && !$securityquestions } class="hidden"{/if}>
 
                                 <div class="divider mb-15">
                                     <span></span>
@@ -202,7 +197,8 @@ jQuery("#inputNewPassword1").keyup(registerFormPasswordStrengthFeedback);
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
+                                    <br>
+                                    <div class="col-sm-6" style="width: 100%;">
                                         <div class="form-group">
                                             <input type="password" name="password2" id="inputNewPassword2" class="field" placeholder="{$LANG.clientareaconfirmpassword}" autocomplete="off"{if $remote_auth_prelinked} value="{$password}"{/if}>
                                         </div>

@@ -2,7 +2,7 @@
     <a href="" class="iconews"  data-toggle="dropdown"><i class="ico-log-in f-18 w-icon"></i></a>
     <div class="dropdown-menu dropdown-menu-right notification">
         <div class="notify-header">
-            <h6 class="d-inline-block m-b-0">WHMCS Admin Panel</h6>
+            <h6 class="d-inline-block m-b-0">Cloudman Admin Panel</h6>
         </div>
         <div class="notify-content">
             <p>

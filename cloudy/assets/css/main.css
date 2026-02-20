@@ -9660,7 +9660,7 @@ select {
   background-position-y: 18px !important;
 }
 .custom-select, .form-control {
-  width: 100%;
+  width: 60rem !important;
   padding: 5px 30px;
   height: 52px;
   font-size: 14px;
