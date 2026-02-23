@@ -37,7 +37,7 @@
 
       <ul class="list-info pricing-bottom pricing-bottom-standard">
         <li><i class="icon-drivessd"></i> <span class="c-purple">Storage</span><br><span>10GB NVMe SSD</span></li>
-        <li><i class="icon-domains"></i> <span class="c-purple">Websites</span><br><span>1 Website + 1 Addon Domain</span></li>
+        <li><i class="icon-domains"></i> <span class="c-purple">Websites</span><br><span>+1 Addon Domain</span></li>
         <li><i class="icon-speed"></i> <span class="c-purple">Bandwidth</span><br><span>100GB Transfer</span></li>
         <li><i class="icon-emailopen"></i> <span class="c-purple">Email Accounts</span><br><span>10 Email Accounts</span></li>
         <li><i class="icon-lock"></i> <span class="c-purple">Security</span><br><span>Firewall + Basic DDoS Protection</span></li>
@@ -72,7 +72,7 @@
 
       <ul class="list-info pricing-bottom pricing-bottom-premium bg-purple">
         <li><i class="icon-drivessd"></i> <span class="c-pink">Storage</span><br><span>25GB NVMe SSD</span></li>
-        <li><i class="icon-domains"></i> <span class="c-pink">Websites</span><br><span>5 Websites + 5 Addon Domains</span></li>
+        <li><i class="icon-domains"></i> <span class="c-pink">Websites</span><br><span>+5 Addon Domains</span></li>
         <li><i class="icon-speed"></i> <span class="c-pink">Bandwidth</span><br><span>300GB Transfer</span></li>
         <li><i class="icon-emailopen"></i> <span class="c-pink">Email Accounts</span><br><span>20 Email Accounts</span></li>
         <li><i class="icon-lock"></i> <span class="c-pink">Security</span><br><span>Firewall + Pro DDoS Protection</span></li>
