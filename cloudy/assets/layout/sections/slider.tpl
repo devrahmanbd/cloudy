@@ -58,7 +58,7 @@
         </p>
 
         <div style="display:flex; gap:14px; flex-wrap:wrap; align-items:center;">
-          <a href="{$WEB_ROOT}/contacts"
+          <a href="{$WEB_ROOT}/contact"
              style="
                display:inline-flex; align-items:center; gap:8px;
                padding: 13px 26px;

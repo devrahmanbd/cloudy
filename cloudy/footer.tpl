@@ -61,7 +61,7 @@
                     <div class="heading">Support</div>
                     <ul class="footer-menu classic">
                         <li class="menu-item"><a href="{$WEB_ROOT}/knowledgebase">Knowledge Base</a></li>
-                        <li class="menu-item"><a href="{$WEB_ROOT}/contact.php">Contact Us</a></li>
+                        <li class="menu-item"><a href="{$WEB_ROOT}/contact">Contact Us</a></li>
                         <li class="menu-item"><a href="{$WEB_ROOT}/submitticket.php">Open Ticket</a></li>
                     </ul>
                 </div>

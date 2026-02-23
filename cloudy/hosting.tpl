@@ -94,7 +94,7 @@
       <div class="cm-ctas">
         <!-- WHMCS order link: replace pid values -->
         <a class="cm-btn cm-btn-primary" href="{$WEB_ROOT}/cart.php?a=add&pid=101">Get Started</a>
-        <a class="cm-btn cm-btn-ghost" href="{$WEB_ROOT}/contact.php">Talk to Sales</a>
+        <a class="cm-btn cm-btn-ghost" href="{$WEB_ROOT}/contact">Talk to Sales</a>
         <a class="cm-btn cm-btn-ghost" href="{$WEB_ROOT}/submitticket.php">Open a Ticket</a>
       </div>
 
@@ -260,7 +260,7 @@
           <p>Tell us your site type (WordPress/store/agency) and monthly traffic estimate, and we’ll recommend the best fit.</p>
         </div>
         <div class="cm-ctas">
-          <a class="cm-btn cm-btn-primary" href="{$WEB_ROOT}/contact.php">Chat with Sales</a>
+          <a class="cm-btn cm-btn-primary" href="{$WEB_ROOT}/contact">Chat with Sales</a>
           <a class="cm-btn cm-btn-ghost" href="{$WEB_ROOT}/submitticket.php">Ask Support</a>
         </div>
       </div>

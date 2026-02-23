@@ -11,77 +11,76 @@
       </p>
     </header>
 
-    <div class="row justify-content-center pricing-row pricing-gap align-items-start">
+<div class="row justify-content-center pricing-row pricing-gap align-items-start">
 
-      <div class="col-12 col-lg-4 d-flex">
-        <article class="wrapper first text-left noshadow h-100 pricing-card pricing-standard"
-                 data-aos="fade-up" data-aos-duration="900">
+  <!-- Launch Plan -->
+  <div class="col-12 col-lg-4 d-flex">
+    <article class="wrapper first text-left noshadow h-100 pricing-card pricing-standard"
+             data-aos="fade-up" data-aos-duration="900">
 
-          <div class="top-content bg-seccolorstyle topradius pricing-top">
-            <img class="svg mb-3" src="templates/{$template}/assets/fonts/svg/cloudfiber.svg" alt="">
-            <h3 class="title mb-2">Standard Hosting</h3>
-            <p class="seccolor mb-3">Perfect for Small Websites</p>
+      <div class="top-content bg-seccolorstyle topradius pricing-top">
+        <img class="svg mb-3" src="templates/{$template}/assets/fonts/svg/cloudfiber.svg" alt="">
+        <h3 class="title mb-2">Launch</h3>
+        <p class="seccolor mb-3">For 1 website & personal projects</p>
 
-            <div class="mvp-pill" aria-label="Key feature">Fast NVMe Storage</div>
+        <div class="mvp-pill" aria-label="Key feature">10GB NVMe Storage</div>
 
-            <div class="fromer seccolor">Starting at:</div>
-            <div class="price seccolor"><sup>$</sup>5.49 <span class="period">per month</span></div>
+        <div class="fromer seccolor">Starting at:</div>
+        <div class="price seccolor"><sup>$</sup>7.99 <span class="period">per month</span></div>
 
-            <a href="{$WEB_ROOT}/store/shared-hosting" class="btn btn-default-yellow-fill pricing-cta">
-              Get Started <span class="cta-arrow" aria-hidden="true">→</span>
-            </a>
+        <a href="{$WEB_ROOT}/store/shared-hosting" class="btn btn-default-yellow-fill pricing-cta">
+          Order Launch <span class="cta-arrow" aria-hidden="true">→</span>
+        </a>
 
-            <div class="pricing-align-spacer" aria-hidden="true"></div>
-          </div>
-
-          <ul class="list-info pricing-bottom pricing-bottom-standard">
-            <li><i class="icon-drivessd"></i> <span class="c-purple">Storage</span><br><span>2.5GB NVMe SSD</span></li>
-            <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br><span>2GB Memory</span></li>
-            <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br><span>2 Cores</span></li>
-            <li><i class="icon-speed"></i> <span class="c-purple">Bandwidth</span><br><span>100GB Transfer</span></li>
-            <li><i class="icon-domains"></i> <span class="c-purple">Domains</span><br><span>Unlimited Domains</span></li>
-            <li><i class="icon-emailopen"></i> <span class="c-purple">Email</span><br><span>Unlimited Emails</span></li>
-          </ul>
-
-        </article>
+        <div class="pricing-align-spacer" aria-hidden="true"></div>
       </div>
 
-      <div class="col-12 col-lg-4 d-flex">
-        <article class="wrapper text-left noshadow h-100 pricing-card pricing-premium"
-                 data-aos="fade-up" data-aos-duration="900" data-aos-delay="100">
+      <ul class="list-info pricing-bottom pricing-bottom-standard">
+        <li><i class="icon-drivessd"></i> <span class="c-purple">Storage</span><br><span>10GB NVMe SSD</span></li>
+        <li><i class="icon-domains"></i> <span class="c-purple">Websites</span><br><span>1 Website + 1 Addon Domain</span></li>
+        <li><i class="icon-speed"></i> <span class="c-purple">Bandwidth</span><br><span>100GB Transfer</span></li>
+        <li><i class="icon-emailopen"></i> <span class="c-purple">Email Accounts</span><br><span>10 Email Accounts</span></li>
+        <li><i class="icon-lock"></i> <span class="c-purple">Security</span><br><span>Firewall + Basic DDoS Protection</span></li>
+      </ul>
 
-          <div class="plans badge feat bg-pink">Recommended</div>
+    </article>
+  </div>
 
-          <div class="top-content bg-seccolorstyle topradius pricing-top">
-            <img class="svg mb-3" src="templates/{$template}/assets/fonts/svg/dedicated.svg" alt="">
-            <h3 class="title mb-2">Premium Hosting</h3>
-            <p class="seccolor mb-3">Best for Growing Businesses</p>
+  <!-- Scale Plan -->
+  <div class="col-12 col-lg-4 d-flex">
+    <article class="wrapper text-left noshadow h-100 pricing-card pricing-premium"
+             data-aos="fade-up" data-aos-duration="900" data-aos-delay="100">
 
-            <div class="mvp-pill mvp-pill-premium" aria-label="Key feature">Best performance / value</div>
+      <div class="plans badge feat bg-pink">Most Popular</div>
 
-            <div class="fromer seccolor">Most Popular Choice</div>
-            <div class="price seccolor"><sup>$</sup>9.99 <span class="period">per month</span></div>
+      <div class="top-content bg-seccolorstyle topradius pricing-top">
+        <img class="svg mb-3" src="templates/{$template}/assets/fonts/svg/dedicated.svg" alt="">
+        <h3 class="title mb-2">Scale</h3>
+        <p class="seccolor mb-3">For growing teams & businesses</p>
 
-            <a href="{$WEB_ROOT}/store/premium-hosting" class="btn btn-default-yellow-fill pricing-cta">
-              Get Started <span class="cta-arrow" aria-hidden="true">→</span>
-            </a>
+        <div class="mvp-pill mvp-pill-premium" aria-label="Key feature">Daily Backup Included</div>
 
-            <div class="pricing-align-spacer" aria-hidden="true"></div>
-          </div>
+        <div class="fromer seccolor">Best Value Plan</div>
+        <div class="price seccolor"><sup>$</sup>11.99 <span class="period">per month</span></div>
 
-          <ul class="list-info pricing-bottom pricing-bottom-premium bg-purple">
-            <li><i class="icon-drivessd"></i> <span class="c-pink">Storage</span><br><span>10GB NVMe SSD</span></li>
-            <li><i class="icon-ram"></i> <span class="c-pink">RAM</span><br><span>6GB Memory</span></li>
-            <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br><span>4 Cores</span></li>
-            <li><i class="icon-speed"></i> <span class="c-pink">Bandwidth</span><br><span>400GB Transfer</span></li>
-            <li><i class="icon-domains"></i> <span class="c-pink">Domains</span><br><span>Unlimited Domains</span></li>
-            <li><i class="icon-emailopen"></i> <span class="c-pink">Email</span><br><span>Unlimited Emails</span></li>
-          </ul>
+        <a href="{$WEB_ROOT}/store/premium-hosting" class="btn btn-default-yellow-fill pricing-cta">
+          Order Scale <span class="cta-arrow" aria-hidden="true">→</span>
+        </a>
 
-        </article>
+        <div class="pricing-align-spacer" aria-hidden="true"></div>
       </div>
 
-      <div class="col-12 col-lg-4 d-flex">
+      <ul class="list-info pricing-bottom pricing-bottom-premium bg-purple">
+        <li><i class="icon-drivessd"></i> <span class="c-pink">Storage</span><br><span>25GB NVMe SSD</span></li>
+        <li><i class="icon-domains"></i> <span class="c-pink">Websites</span><br><span>5 Websites + 5 Addon Domains</span></li>
+        <li><i class="icon-speed"></i> <span class="c-pink">Bandwidth</span><br><span>300GB Transfer</span></li>
+        <li><i class="icon-emailopen"></i> <span class="c-pink">Email Accounts</span><br><span>20 Email Accounts</span></li>
+        <li><i class="icon-lock"></i> <span class="c-pink">Security</span><br><span>Firewall + Pro DDoS Protection</span></li>
+      </ul>
+
+    </article>
+  </div>
+        <div class="col-12 col-lg-4 d-flex">
         <article class="wrapper first text-left noshadow h-100 pricing-card pricing-standard aos-init aos-animate"
                  data-aos="zoom-in" data-aos-duration="900">
 
@@ -96,10 +95,10 @@
 
             <div class="trial-price-line seccolor">
               <span class="trial-free">FREE</span>
-              <span class="trial-days">7‑Day Trial</span>
+              <span class="trial-days">24 Hours Trial</span>
             </div>
 
-            <a href="{$WEB_ROOT}/contact.php?subject=trial"
+            <a href="{$WEB_ROOT}/contact?subject=trial"
                class="btn btn-default-yellow-fill pricing-cta">
               Request Access <span class="cta-arrow" aria-hidden="true">→</span>
             </a>
@@ -109,14 +108,12 @@
 
           <ul class="list-info pricing-bottom pricing-bottom-trial">
             <li><i class="icon-check"></i> <span class="c-purple">Features</span><br><span>Full Access to All Plans</span></li>
-            <li><i class="icon-clock"></i> <span class="c-purple">Duration</span><br><span>7‑Day Free Trial</span></li>
+            <li><i class="icon-clock"></i> <span class="c-purple">Duration</span><br><span>24 Hours Free Trial</span></li>
             <li><i class="icon-support"></i> <span class="c-purple">Support</span><br><span>24/7 Expert Assistance</span></li>
           </ul>
 
         </article>
       </div>
-
-    </div>
   </div>
 </section>
 

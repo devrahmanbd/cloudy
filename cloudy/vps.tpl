@@ -113,7 +113,7 @@
 
       <div class="cm-ctas">
         <a class="cm-btn cm-btn-primary" href="#waitlist">Join Waitlist</a>
-        <a class="cm-btn cm-btn-ghost" href="{$WEB_ROOT}/contact.php">Talk to Sales</a>
+        <a class="cm-btn cm-btn-ghost" href="{$WEB_ROOT}/contact">Talk to Sales</a>
         <a class="cm-btn cm-btn-ghost" href="{$WEB_ROOT}/submitticket.php">Ask Support</a>
       </div>
 
@@ -243,7 +243,7 @@
              If you have a newsletter system, swap this for your embed. -->
         <div class="cm-form">
           <input id="kvmEmail" class="cm-input" type="email" placeholder="Your email address" autocomplete="email">
-          <a id="kvmNotifyBtn" class="cm-btn cm-btn-primary" href="{$WEB_ROOT}/contact.php?subject=KVM%20VPS%20Waitlist">Notify me</a>
+          <a id="kvmNotifyBtn" class="cm-btn cm-btn-primary" href="{$WEB_ROOT}/contact?subject=KVM%20VPS%20Waitlist">Notify me</a>
         </div>
       </div>
 
@@ -265,7 +265,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function updateLink() {
     var v = (email.value || '').trim();
-    var base = "{$WEB_ROOT}/contact.php?subject=KVM%20VPS%20Waitlist";
+    var base = "{$WEB_ROOT}/contact?subject=KVM%20VPS%20Waitlist";
     if (!v) { btn.setAttribute('href', base); return; }
     btn.setAttribute('href', base + "&message=" + encodeURIComponent("Please add me to the KVM VPS waitlist. Email: " + v));
   }

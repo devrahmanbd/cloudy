@@ -65,21 +65,21 @@
                     <div class="service">
                       <img class="svg" src="{$WEB_ROOT}/templates/{$template}/assets/fonts/svg/cloudfiber.svg" alt="Shared Hosting">
                       <div class="media-body">
-                        <a class="menu-item mergecolor" href="/hosting.php">Shared Hosting</a>
+                        <a class="menu-item mergecolor" href="/hosting">Shared Hosting</a>
                         <p class="seccolor">Otimized Cpanel Web Hosting For Highly Successful Business</p>
                       </div>
                     </div>
                     <div class="service">
                       <img class="svg" src="{$WEB_ROOT}/templates/{$template}/assets/fonts/svg/reseller.svg" alt="KVM VPS">
                       <div class="media-body">
-                        <a class="menu-item mergecolor" href="/vps.php">KVM VPS</a>
+                        <a class="menu-item mergecolor" href="/vps">KVM VPS</a>
                         <p class="seccolor">Best For Self Managed and Developer </p>
                       </div>
                     </div>
                     <div class="service">
                       <img class="svg" src="{$WEB_ROOT}/templates/{$template}/assets/fonts/svg/domains.svg" alt="Domains">
                       <div class="media-body">
-                        <a class="menu-item mergecolor" href="/domain.php">Domains Names</a>
+                        <a class="menu-item mergecolor" href="/domain">Domains Names</a>
                         <p class="seccolor">Affordable domain registration and management</p>
                       </div>
                     </div>
@@ -298,7 +298,7 @@
                           <div class="inner-content">
                             <span>Call us:</span> <b>+ (123) 1300-656-1046</b> HeadQuarters - No.01 - 399-0 Lorem Street City Melbourne
                           </div>
-                          <a href="{$WEB_ROOT}/contact.php" class="btn btn-default-yellow-fill mt-4">Contact Us</a>
+                          <a href="{$WEB_ROOT}/contact" class="btn btn-default-yellow-fill mt-4">Contact Us</a>
                         </div>
                       </div>
                     </div>
@@ -408,7 +408,7 @@
               <div class="dropdown-menu">
                 <a class="dropdown-item menu-item" href="{$WEB_ROOT}/knowledgebase">Knowlegebase</a>
                 <a class="dropdown-item menu-item" href="{$WEB_ROOT}/announcements">Announcements</a>
-                <a class="dropdown-item menu-item" href="{$WEB_ROOT}/contact.php">Contact Us</a>
+                <a class="dropdown-item menu-item" href="{$WEB_ROOT}/contact">Contact Us</a>
                 <a class="dropdown-item menu-item" href="/cloudy/template/legal">Privacy policy</a>
                 <a class="dropdown-item menu-item" href="{$WEB_ROOT}/blog-details">Blog Details</a>
 

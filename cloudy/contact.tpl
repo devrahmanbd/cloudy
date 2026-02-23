@@ -290,7 +290,7 @@
     <p class="cx-form-title mergecolor">Send Us a Message</p>
     <p class="cx-form-sub mergecolor">All fields are required. We'll respond within 24 hours.</p>
 
-    <form method="post" action="contact.php" role="form">
+    <form method="post" action="contact" role="form">
       <input type="hidden" name="action" value="send" />
 
       <div class="cx-grid">

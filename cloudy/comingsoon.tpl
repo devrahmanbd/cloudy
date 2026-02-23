@@ -149,7 +149,7 @@
           <div class="links">
             <a class="btn btn-ghost" href="{$WEB_ROOT}/clientarea.php">Client Area</a>
             <a class="btn btn-ghost" href="{$WEB_ROOT}/submitticket.php">Support</a>
-            <a class="btn btn-ghost" href="{$WEB_ROOT}/contact.php">Contact</a>
+            <a class="btn btn-ghost" href="{$WEB_ROOT}/contact">Contact</a>
           </div>
 
           <div class="note" id="cmMsg"></div>
@@ -163,7 +163,7 @@
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   /* Optional countdown */
-  var launchIso = "2026-03-01T00:00:00+06:00"; // set "" to disable
+  var launchIso = "2026-04-01T00:00:00+06:00"; // set "" to disable
 
   var note = document.getElementById('cmCountdownNote');
   var elD = document.getElementById('cmDays');
